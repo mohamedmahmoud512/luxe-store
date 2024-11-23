@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(192, 192, 192);
+}
+#imgShow{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+#imgShow img{
+    width: 100%;
+    border-radius: 30px;
+}
+#imgShow .buttons :nth-child(2){
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#next{
+    cursor: pointer;
+}
+#prev{
+    cursor: pointer;
+}
+#closeIMG{
+    cursor: pointer;
+}
